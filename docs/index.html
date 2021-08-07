@@ -64,7 +64,7 @@
       </nav>
       <hr />
     </header>
-    <main class="w-11/12 py-2 mx-auto">
+    <main class="w-11/12 py-2 mx-auto reveal-main">
       <!-- Banner Home -->
       <section
         class="
@@ -301,7 +301,7 @@
         </a>
       </section>
       <!-- Section 5 - Social Media -->
-      <section class="flex items-center justify-center">
+      <section class="flex items-center justify-center reveal-social">
         <header class="my-12 text-3xl font-bold text-center">
           <h4>Follow TechNews</h4>
           <div class="flex gap-4 pt-4">
@@ -389,9 +389,11 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
     <script>
-      ScrollReveal().reveal(".reveal-home");
-      ScrollReveal().reveal(".reveal-news", { delay: 100 });
-      ScrollReveal().reveal(".reveal-banner", { delay: 100 });
+      ScrollReveal().reveal(".reveal-main", { delay: 100 });
+      ScrollReveal().reveal(".reveal-home", { delay: 200 });
+      ScrollReveal().reveal(".reveal-news", { delay: 200 });
+      ScrollReveal().reveal(".reveal-banner", { delay: 200 });
+      ScrollReveal().reveal(".reveal-social", { delay: 200 });
     </script>
   </body>
 </html>
