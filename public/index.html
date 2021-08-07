@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TailwindCSS -->
+    <link rel="stylesheet" href="styles/tailwind.css" />
+    <title>TechNews</title>
+  </head>
+  <body class="text-white bg-hero-pattern selection:bg-red-500">
+    <!-- Header -->
+    <header class="h-auto">
+      <nav class="flex items-center justify-between w-11/12 py-2 mx-auto">
+        <figure class="w-16">
+          <img src="./img/brand.png" alt="Branding" />
+        </figure>
+        <ul class="flex-1 hidden ml-4 font-semibold xl:flex">
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="/">Web Develpment</a>
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="">BlackChain</a>
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="">Machine Leaning</a>
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href=""
+              >Artificial Intelligence</a
+            >
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href=""
+              >Quantum Computing</a
+            >
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="">Startup</a>
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="">Crytocurrencies</a>
+          </li>
+          <li class="px-2">
+            <a class="border-white hover:border-b-2" href="">More</a>
+          </li>
+        </ul>
+        <div class="w-6">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+            ></path>
+          </svg>
+        </div>
+      </nav>
+      <hr />
+    </header>
+    <main class="w-11/12 py-2 mx-auto">
+      <!-- Banner Home -->
+      <section
+        class="
+          w-full
+          h-[550px]
+          bg-banner bg-no-repeat bg-center bg-cover
+          flex flex-col
+          items-center
+          justify-end
+          sm:p-12
+          p-6
+          reveal-home
+        "
+      >
+        <header><h2 class="text-3xl font-bold">Big News Today</h2></header>
+        <p class="m-2 text-center">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
+          architecto quae quas nostrum placeat, fuga nihil quo quia ex,
+          blanditiis, ea pariatur optio eaque voluptas et ullam recusandae
+          eligendi perferendis?
+        </p>
+        <a
+          href="#"
+          class="transition duration-200 border border-gray-800  btn hover:border-red-600"
+          >Read More >></a
+        >
+      </section>
+      <!-- Section 1 - News -->
+      <section
+        class="grid grid-cols-1 gap-4 my-12  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 reveal-news"
+      >
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img src="./img/news1.jpg" class="h-full" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news2.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news3.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news4.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+      </section>
+      <!-- Section 2 - Banner -->
+      <section
+        class="
+          bg-tech-red
+          h-[350px]
+          flex flex-col
+          justify-center
+          items-start
+          px-8
+          reveal-banner
+        "
+      >
+        <header class="text-3xl font-bold center">
+          <h3>Lorem, ipsum dolor.</h3>
+        </header>
+        <p class="w-full py-2 lg:w-6/12">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi
+          illum veniam sequi esse alias autem soluta architecto eligendi.
+        </p>
+        <a
+          class="
+            btn
+            transition
+            duration-200
+            border border-gray-700
+            hover:border-[#FA1633]
+          "
+          href=""
+          >Lear More >>
+        </a>
+      </section>
+      <!-- Section 3 - News  -->
+      <section
+        class="grid grid-cols-1 gap-4 my-12  sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 reveal-news"
+      >
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img src="./img/news1.jpg" class="h-full" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news2.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news3.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+        <article
+          class="flex flex-col items-center justify-center sm:items-start"
+        >
+          <figure class="h-[180px]">
+            <img class="h-full" src="./img/news4.jpg" alt="" />
+          </figure>
+          <h3 class="pt-2 text-xl font-bold">Lorem, ipsum dolor.</h3>
+          <p class="py-2 text-center sm:text-left">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab expedita
+            provident in ullam minus dolores ratione voluptatibus iusto harum
+            illo reiciendis ipsam et temporibus, ea labore dolorem quos
+            laudantium fuga.
+          </p>
+          <a class="font-bold border-b border-black hover:border-white" href="#"
+            >Learn More >></a
+          >
+        </article>
+      </section>
+      <!-- Section 4 - Banner -->
+      <section
+        class="
+          bg-tech-blue
+          h-[350px]
+          flex flex-col
+          justify-center
+          items-start
+          px-8
+          reveal-banner
+        "
+      >
+        <header class="text-3xl font-bold center">
+          <h3>Lorem, ipsum dolor.</h3>
+        </header>
+        <p class="w-full py-2 lg:w-6/12">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quasi
+          illum veniam sequi esse alias autem soluta architecto eligendi.
+        </p>
+        <a
+          class="
+            btn
+            transition
+            duration-200
+            border border-gray-700
+            hover:border-[#FA1633]
+          "
+          href=""
+          >Lear More >>
+        </a>
+      </section>
+      <!-- Section 5 - Social Media -->
+      <section class="flex items-center justify-center">
+        <header class="my-12 text-3xl font-bold text-center">
+          <h4>Follow TechNews</h4>
+          <div class="flex gap-4 pt-4">
+            <figure class="w-16">
+              <img src="./img/facebook.svg" alt="" />
+            </figure>
+            <figure class="w-16">
+              <img src="./img/twitter.svg" alt="" />
+            </figure>
+            <figure class="w-16">
+              <img src="./img/linkedin.svg" alt="" />
+            </figure>
+          </div>
+        </header>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="bg-[#212121] w-full">
+      <section
+        class="grid w-11/12 grid-cols-1 py-12 mx-auto  sm:grid-cols-2 xl:grid-cols-4"
+      >
+        <div
+          class="flex flex-col items-center justify-center pt-4  xl:pt-0 sm:justify-start sm:items-start"
+        >
+          <header class="text-xl font-bold">
+            <h5>Lorem, ipsum.</h5>
+          </header>
+          <ul>
+            <li class="py-2">Blockchain</li>
+            <li>Machine Learning</li>
+            <li class="py-2">Artificial Intelligence</li>
+            <li>Quantum Computing</li>
+            <li class="py-2">Startup</li>
+            <li>Crytocurrencies</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center pt-4  xl:pt-0 sm:justify-start sm:items-start"
+        >
+          <header class="text-xl font-bold">
+            <h5>Lorem, ipsum.</h5>
+          </header>
+          <ul>
+            <li class="py-2">Blockchain</li>
+            <li>Machine Learning</li>
+            <li class="py-2">Artificial Intelligence</li>
+            <li>Quantum Computing</li>
+            <li class="py-2">Startup</li>
+            <li>Crytocurrencies</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center pt-4  xl:pt-0 sm:justify-start sm:items-start"
+        >
+          <header class="text-xl font-bold">
+            <h5>Lorem, ipsum.</h5>
+          </header>
+          <ul>
+            <li class="py-2">Blockchain</li>
+            <li>Machine Learning</li>
+            <li class="py-2">Artificial Intelligence</li>
+            <li>Quantum Computing</li>
+            <li class="py-2">Startup</li>
+            <li>Crytocurrencies</li>
+          </ul>
+        </div>
+        <div
+          class="flex flex-col items-center justify-center pt-4  xl:pt-0 sm:justify-start sm:items-start"
+        >
+          <header class="text-xl font-bold">
+            <h5>Lorem, ipsum.</h5>
+          </header>
+          <ul>
+            <li class="py-2">Blockchain</li>
+            <li>Machine Learning</li>
+            <li class="py-2">Artificial Intelligence</li>
+            <li>Quantum Computing</li>
+            <li class="py-2">Startup</li>
+            <li>Crytocurrencies</li>
+          </ul>
+        </div>
+      </section>
+    </footer>
+    <!-- ScrollReveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script>
+      ScrollReveal().reveal(".reveal-home");
+      ScrollReveal().reveal(".reveal-news", { delay: 100 });
+      ScrollReveal().reveal(".reveal-banner", { delay: 100 });
+    </script>
+  </body>
+</html>
